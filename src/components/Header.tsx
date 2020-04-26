@@ -5,8 +5,8 @@ import { colors, getSize, sizes } from "../styles/theme"
 import Typography from "../styles/primitives/Typography"
 
 const HeaderBase = styled.header({
-  padding: sizes.xLarge,
-  backdropFilter: "blur(10px)",
+  padding: `${sizes.xxLarge} ${sizes.medium}`,
+  backdropFilter: "blur(4px)",
   display: "flex",
   width: "100%",
   position: "sticky",
@@ -77,7 +77,7 @@ const Header = () => (
           </MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink to="/">
+          <MenuLink to="/about-mse">
             <Typography variant="subtitle1">about me</Typography>
           </MenuLink>
         </MenuItem>

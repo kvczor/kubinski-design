@@ -41,7 +41,7 @@ export type Sizes = {
 export const sizes: Sizes = {
   xSmall: getSize(1), // 4px
   small: getSize(3), // 12px
-  medium: getSize(4), // 16rem
+  medium: getSize(4), // 16px
   large: getSize(6), // 24px
   xLarge: getSize(10), // 40px
   xxLarge: getSize(16), // 64px

@@ -22,7 +22,7 @@ const Header1 = styled.h1({
   margin: 0,
   fontSize: getSize(18),
   fontWeight: "bold",
-  [mediaQueries.mobileL]: {
+  [mediaQueries.tablet]: {
     fontSize: getSize(31),
   },
 })
